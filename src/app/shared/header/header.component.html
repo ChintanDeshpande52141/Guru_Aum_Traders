@@ -1,0 +1,18 @@
+<nav>
+  <div class="logo">
+    <!-- <h2>Guru Aum Traders</h2> -->
+    <img src="assets/images/logo.png" alt="" />
+  </div>
+  <div class="hamburger" (click)="toggleMenu()">
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="line3"></div>
+  </div>
+  <ul class="nav-links">
+    <li><a [routerLink]="['..']">Home</a></li>
+    <li><a [routerLink]="['/order_product']">What We Sell</a></li>
+    <li><a>Contact Us</a></li>
+    <li><button class="login-button">Login</button></li>
+    <li><button class="join-button">Join</button></li>
+  </ul>
+</nav>

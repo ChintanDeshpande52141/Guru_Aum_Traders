@@ -1,0 +1,34 @@
+.image-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-image: url("../../../assets/images/healthy-jaggery-still-life-arrangement\ \(1\).jpg");
+  background-color: #2b2a2a;
+  background-size: cover;
+  background-blend-mode: overlay;
+  width: 100%;
+  height: 500px;
+  font-family: var(--font-1);
+  .content {
+    padding: 40px;
+    h2 {
+      font-size: clamp(40px, 6vw, 92px);
+      font-weight: 900;
+      color: var(--caramel);
+    }
+    p {
+      color: var(--caramel);
+      font-size: clamp(18px, 3vw, 24px);
+      width: min(90%, 50ch);
+      padding-block: 20px;
+      text-align: center;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .content {
+      p {
+        text-align: left;
+      }
+    }
+  }
+}

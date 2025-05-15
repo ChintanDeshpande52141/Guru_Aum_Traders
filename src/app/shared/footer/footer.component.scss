@@ -1,0 +1,29 @@
+.footer-wrapper {
+  color: var(--coffee);
+  margin-bottom: 200px;
+  // background-color: var(--bgc);
+  font-family: var(--font-1);
+  h3,
+  h4 {
+    // color: var(--coffee) !important;
+    font-size: 22px;
+  }
+
+  img {
+    width: min(150px, 20%);
+  }
+
+  .footer-content {
+    .footer-info,
+    .footer-links,
+    .socials {
+      padding: 15px 10px;
+    }
+    .footer-info {
+      @media screen and (min-width: 768px) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  }
+}
