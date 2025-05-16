@@ -1,35 +1,17 @@
-<section class="what-we-sell-wrapper container">
+<section class="our-services-wrapper my-5 container">
   <div class="title text-center">
-    <h3 class="mt-5 display-4 font-weight-bold">What We Sell!</h3>
+    <h3 class="display-4 font-weight-bold">Our Services</h3>
     <p>
-      Quality you can trust — from pure jaggery to premium grains and authentic
-      mahua, all sourced naturally.
+      From farm to doorstep — we handle logistics so you enjoy nature’s best.
     </p>
   </div>
-  <div class="service-cards">
-    <div class="row">
-      @for( data of servicesData; track data.service_title){
-      <div class="col-lg-4 col-md-4 col-12 mb-4">
-        <div class="card text-center border-0">
-          <div class="w-25 mx-auto">
-            <img
-              src="{{ data.service_image }}"
-              class="card-img-top"
-              alt="..."
-            />
-          </div>
-          <div class="card-body">
-            <div class="card-details">
-              <h5 class="card-title">{{ data.service_title }}</h5>
-              <p class="card-text">
-                {{ data.service_details }}
-              </p>
-            </div>
-            <a class="know-more text-start">Know More</a>
-          </div>
-        </div>
-      </div>
-      }
-    </div>
+
+  <div class="services-card container">
+    <img src="../../../assets/images/services/freepik__adjust.png" alt="" />
+    <p class="text-center">
+      We specialize in delivering fresh, naturally sourced products straight
+      from farms to your home or business. Whether you need small orders for
+      personal use or bulk quantities for resale, we've got you covered.
+    </p>
   </div>
 </section>

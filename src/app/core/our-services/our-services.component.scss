@@ -1,28 +1,40 @@
-.title {
-  p {
-    width: min(90%, 50ch);
-    margin: 0 auto;
-  }
-}
+// .card {
+//   height: 100%;
+//   box-shadow: 1px 2px 13px -2px rgba(208, 208, 208, 0.83);
+//   padding: 30px 0px;
 
-.service-cards {
-  margin-block: 50px;
-  .card {
-    height: 100%;
-    box-shadow: 1px 2px 13px -2px rgba(208, 208, 208, 0.83);
-    padding: 30px 0px;
-
-    .card-body {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-      gap: 15px;
+//   .card-body {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-between;
+//     align-items: center;
+//     gap: 15px;
+//   }
+//   .know-more {
+//     color: var(--caramel);
+//     text-decoration: none;
+//     cursor: pointer;
+//   }
+// }
+.our-services-wrapper {
+  .title {
+    p {
+      width: min(90%, 80ch);
+      margin: 0 auto;
     }
-    .know-more {
-      color: var(--caramel);
-      text-decoration: none;
-      cursor: pointer;
+  }
+  background-color: var(--caramel);
+  color: white;
+  padding: 80px 40px;
+  .services-card {
+    p {
+      width: min(90%, 80ch);
+      margin: 0 auto;
+    }
+    img {
+      width: 35%;
+      margin: 0 auto;
+      display: block;
     }
   }
 }
