@@ -1,0 +1,16 @@
+.our-team-wrapper {
+  background-color: var(--caramel);
+  color: white;
+  margin-block: 80px;
+  //   padding: 40px 20px;
+  padding-block: clamp(20px, 8vw, 40px);
+  padding-inline: clamp(10px, 5vw, 20px);
+  border-radius: 8px;
+  .our-team-content {
+    text-align: center;
+    img {
+      width: 100px;
+      margin-block: 30px 15px;
+    }
+  }
+}
