@@ -1,0 +1,21 @@
+<section class="our-team-wrapper container">
+  <div class="title text-center">
+    <h3 class="display-4 font-weight-bold">Our Team</h3>
+    <p>
+      Driven by values, united by purpose — this is the team behind your
+      favorite products
+    </p>
+  </div>
+  <div class="our-team-content">
+    <div class="row">
+      @for(data of teamData; track data.name){
+      <div class="col-lg-3 col-md-3 col-12">
+        <div class="team-avatar">
+          <img src="{{ data.image }}" alt="avatar" />
+          <p class="name">{{ data.name }}</p>
+        </div>
+      </div>
+      }
+    </div>
+  </div>
+</section>

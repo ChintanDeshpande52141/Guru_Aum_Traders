@@ -1,6 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 @use "./assets/scss/variable.scss" as *;
 
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +11,27 @@
   font-family: var(--font-1);
 }
 p {
-  font-size: 17px;
-  letter-spacing: 0.3px;
+  font-size: 18px;
   line-height: 26px;
+}
+
+.title {
+  p {
+    width: min(90%, 50ch);
+    margin: 0 auto;
+  }
+  h3 {
+    position: relative;
+    margin-bottom: 15px;
+    display: inline-block;
+    // &::after {
+    //   content: "";
+    //   position: absolute;
+    //   height: 3px;
+    //   background-color: var(--caramel);
+    //   width: 70%;
+    //   bottom: 0px;
+    //   left: 0;
+    // }
+  }
 }
